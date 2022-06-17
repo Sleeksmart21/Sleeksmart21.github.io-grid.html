@@ -1,0 +1,67 @@
+body{
+    background: rgb(39, 36, 36);
+ }
+
+ .one{ grid-area: header; }
+ .two{ grid-area: nav; }
+ .three{ grid-area: bar; }
+ .four{ grid-area: main; }
+ .five{ grid-area: footer; }
+
+ main{
+    display: grid;
+    justify-content: center;
+    margin: 10% 10%;
+ }
+
+ .container{
+    display: grid;
+    grid-template-areas: 
+    'header header header header nav nav' 'bar bar bar main main main' 'bar bar bar footer footer footer';
+    gap: 10px;
+    background: rgb(29, 29, 48);
+    padding: 20px;
+    width: 700px;
+    height: 500px;
+ }
+
+ .one {
+    background: rgb(230, 68, 28);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 20px;
+ }
+ .two {
+    background: rgb(255, 174, 0);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 150px;
+ }
+ .three {
+    background: rgb(57, 189, 57);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+ }
+ .four {
+    background: rgb(0, 183, 255);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    margin-right: 150px;
+ }
+ .five {
+    background: rgb(0, 183, 255);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-right: 150px;
+ }
+
