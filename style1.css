@@ -32,13 +32,6 @@ body{
     background: black;
 }
 
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-}
-
 .container{
     display: flex;
     margin-top: 100px;
