@@ -17,6 +17,16 @@
     --custom-color: grey;
 }
 
+
+nav{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background: orange;
+ }
+ 
+
 @media screen and (max-width:840px) {
     .form{
         width: 100%;
