@@ -12,6 +12,14 @@ body{
     font-weight: 400;
 }
 
+nav{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background: orange;
+}
+
 main{
     width: 50%;
     margin: auto;
