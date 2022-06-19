@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#we{
+    display: flex;
+    flex-direction: column;
+}
+
+#para{
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen  and (max-width: 768px){
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 252, 252);
+    background-size: cover;
+    width: 1000px;
+    height: fit-content;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+.bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1000px;
+    height: 300px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn{
+    background: hsl(322, 100%, 65%);
+    color: white;
+    width: 170px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.btn:active{
+    background-color: hsl(322, 65%, 73%);
+    cursor: pointer;
+    color: white;
+}
+
+#bt{
+    display: flex;
+    background: white;
+    align-items: center;
+    width: 150px;
+    height: 15px;
+    border-radius: 20px;
+    border: white;
+    margin: auto;
+    /* margin-top: 90px; */
+}
+
+.sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 100px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 900px;
+    height: 300px;
+    border: 2px solid rgb(241, 236, 236);
+    box-shadow: 10px;
+    border-radius: 10px;
+    background-color: white ;
+}
+
+.sub-child1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 400px;
+    height: 250px;
+}
+
+.sub-child{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 250px;
+    height: 250px;
+}
+
+.p1{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 200px;
+}
+
+.top{
+    background-image: url(image2/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    padding: 0;
+    margin-bottom: 90px;
+}
+
+#we{
+    padding: 10px 15px;
+    justify-content: space-between;
+}
+
+.lower{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:  hsl(192, 100%, 9%);
+    background-size: cover;
+    color: white;
+    width: 1000px;
+    height: 400px;
+}
+
+.icon{
+    display: inline-block;
+    position: relative;;
+}
+
+#icon1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lower1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 90px;
+}
+
+.lower2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 20px;
+}
+
+.bar2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+    height: 180px;
+    border-radius: 20px;
+    border: 2px solid rgb(241, 236, 236); 
+    position: relative; 
+    z-index: 2;
+    bottom: -70px;
+    background-color: white;
+}
+
+p{
+    font-size: 15px;
+}
+
+#para{
+    justify-content: center;
+}
+
+.bar1{
+    filter: invert(100%) saturate(0%) brightness(200%);
+}
+
+#hud{
+    width: 150px;
+    height: 90px;
+    filter: invert(100%) saturate(0%) brightness(200%);
+}
